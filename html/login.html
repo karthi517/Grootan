@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+
+<body>
+
+    <label for="username">Username</label>
+    <input type="text" id="username" />
+
+    <br/>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" />
+
+    <br/>
+
+    <button onclick="verify()">Submit</button>
+    <br/>
+    <br/>
+    <a href="signup.html">Signup page</a>
+
+    <script>
+        function verify() {
+            var userName = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            var auth = localStorage.getItem(userName);
+            console.log(userName + "|" + password + "|" + auth);
+            if (auth != null && auth == password) {
+                window.location.replace("file:///D:/VisualStudioFiles/Grootan/html/users.html");
+            } else {
+                alert("Wrong username or password");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
