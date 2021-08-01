@@ -1,4 +1,4 @@
-const api_url = "https://jsonplaceholder.typicode.com/users";
+const api_url = "https://raw.githubusercontent.com/karthi517/Grootan/main/api";
 
 async function getapi(url) {
 
