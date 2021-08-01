@@ -15,3 +15,6 @@ clicking on the user the details will be showing.......
 
 
 Website link:https://techupz.000webhostapp.com
+
+
+Languages Used:HTML,CSS,JavaScript,API created Through Visual Studio Code and Uploaded it in Github and used JavaScript.
