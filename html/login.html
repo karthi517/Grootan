@@ -22,7 +22,7 @@
 
         <br/>
         <br>
-        <button onclick="verify()">Submit</button>
+        <button type="reset" onclick="verify()">Submit</button>
         <br>
         <br>
         <div class="short">
@@ -35,7 +35,7 @@
             var password = document.getElementById("password").value;
             var auth = localStorage.getItem(userName);
             if (auth != null && auth == password) {
-                window.location.replace("file:///D:/VisualStudioFiles/Grootan/html/users.html");
+                window.location.replace("https://techupz.000webhostapp.com/html/users.html");
             } else {
                 alert("Wrong username or password");
             }
