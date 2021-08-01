@@ -11,6 +11,9 @@ body {
     background: linear-gradient(45deg, #FEAC5E, #C779D0, #4BC0C8);
     font-family: "Sansita Swashed", cursive;
 }
+img {
+    border-radius: 8px;
+  }
 
 input {
     width: 50%;
