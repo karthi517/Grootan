@@ -6,6 +6,10 @@ body {
     color: #fff;
     background-attachment: fixed;
 }
+img {
+    border-radius: 8px;
+  }
+
 
 table {
     background-color: whitesmoke;
