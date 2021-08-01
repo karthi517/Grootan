@@ -1,5 +1,5 @@
 # Grootan
-Created API using Visual Studio Code and uploaded in Github using github rawdata H have displayed that in UI.
+Created API using Visual Studio Code and uploaded in Github using github rawdata I have displayed that in UI.
 
 This is a sample web page which has sign up and login features.
 
@@ -18,3 +18,4 @@ Website link:https://techupz.000webhostapp.com
 
 
 Languages Used:HTML,CSS,JavaScript,API created Through Visual Studio Code and Uploaded it in Github and used JavaScript.
+WebHosting:000WebHosting I have hosted using this site
